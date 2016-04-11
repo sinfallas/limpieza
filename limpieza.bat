@@ -11,10 +11,14 @@ cd c:\usuarios\%username%\AppData\Local
 rmdir /S /Q Temp
 cd ..
 
-del %TEMP%\* /s /f /q
+del %TEMP%\*.* /s /f /q
 del c:\windows\*.tmp /s /f /q
 del c:\windows\*.bak /s /f /q
 del c:\windows\*.old /s /f /q
+
+
+del /P /S "C:\Users\%username%\AppData\Local\Google\Chrome\User Data\History*"
+del /P /S "C:\Users\%username%\AppData\Roaming\Mozilla\Firefox\Profiles\places.sqlite*"
 
 RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 8
 RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 2
@@ -25,5 +29,7 @@ RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 255
 RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 4351
 
 chkdsk c: /f /r /x
+
+reboot
 
 exit
