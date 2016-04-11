@@ -1,6 +1,6 @@
 @echo off
 
-ipconfig /release
+ipconfig /release *
 net stop "dhcp client" 
 net stop "dns client" 
 net stop "network connections" 
@@ -8,7 +8,7 @@ net start "dhcp client"
 net start "dns client" 
 net start "network connections" 
 ipconfig /flushdns
-ipconfig /renew
+ipconfig /renew *
 
 net stop spooler
 del %SystemRoot%\system32\spool\PRINTERS\*.* /Q
@@ -16,6 +16,10 @@ net start spooler
 
 cd c:\usuarios\%username%\AppData\Local
 rmdir /S /Q Temp
+cd ..
+
+cd C:\$Recycle.Bin\
+del /q /f /s /a r h s *.*
 cd ..
 
 del %TEMP%\*.* /s /f /q
