@@ -1,4 +1,28 @@
-commit 083bb57d633ebd299a97ab040fc6d30550480c7a (HEAD, origin/master, origin/HEAD, master)
+commit ab987f653c5a5f0aa4a5b06c11f8681eb15703e6 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Apr 10 20:38:02 2016 -0430
+
+    * bugfix
+
+commit 09c4dcbba2bd090f44a45744aeca16e3047b1a8c
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Apr 10 20:33:40 2016 -0430
+
+    * update
+
+commit c25ff25718602c00dd1b895212ef29d37b2165cb
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Apr 10 20:33:10 2016 -0430
+
+    * se limmpia el cache de windows update
+
+commit 53f17d2600d953ed3e611044ec7185b5c66554fd
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Apr 10 20:27:43 2016 -0430
+
+    * changelog
+
+commit 083bb57d633ebd299a97ab040fc6d30550480c7a
 Author: jose perez <sinfallas@gmail.com>
 Date:   Sun Apr 10 20:26:52 2016 -0430
 
