@@ -1,7 +1,14 @@
 @echo off
+
+ipconfig /release
+net stop "dhcp client" 
+net stop "dns client" 
+net stop "network connections" 
+net start "dhcp client" 
+net start "dns client" 
+net start "network connections" 
 ipconfig /flushdns
-net stop dnscache
-dnscache net start
+ipconfig /renew
 
 net stop spooler
 del %SystemRoot%\system32\spool\PRINTERS\*.* /Q
@@ -28,7 +35,7 @@ RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 32
 RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 255
 RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 4351
 
-defrag /U c:\
+defrag /c /h /u
 
 chkdsk c: /f /r /x
 
