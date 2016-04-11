@@ -1,4 +1,29 @@
-commit aec8ca399efb9487bbaa6079843ccf514a8a2f84 (HEAD, origin/master, origin/HEAD, master)
+commit 083bb57d633ebd299a97ab040fc6d30550480c7a (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Apr 10 20:26:52 2016 -0430
+
+    * se vacia la papelera
+    * se agrega una carpeta con registros recomendados
+
+commit d2c1c80bc15e65c136c9dac3daaf93374924c891
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Apr 10 20:14:28 2016 -0430
+
+    * se repara la red
+
+commit 030afd93522e5faa88fe6f6fcb5be0e88617459d
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Apr 10 20:08:13 2016 -0430
+
+    * se desfragmenta el disco c:
+
+commit ae23ff57551ebc0de1ba1bccfc7b199a7322ebdd
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Apr 10 20:03:15 2016 -0430
+
+    * changelog
+
+commit aec8ca399efb9487bbaa6079843ccf514a8a2f84
 Author: jose perez <sinfallas@gmail.com>
 Date:   Sun Apr 10 20:02:56 2016 -0430
 
