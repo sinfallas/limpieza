@@ -1,4 +1,28 @@
-commit 493a45fcdd8bb08995965a321d667ccd5e87ff98 (HEAD, origin/master, origin/HEAD, master)
+commit aec8ca399efb9487bbaa6079843ccf514a8a2f84 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Apr 10 20:02:56 2016 -0430
+
+    * limpia el cache de firefox y chrome
+
+commit a94c30bb19b78de7f81a5c2c0614841536fabd35
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Apr 10 19:35:56 2016 -0430
+
+    * se agrega chkdsk
+
+commit ff4f1de8b0ab237446093e0a4b89cecd43cd4ece
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Apr 10 19:26:12 2016 -0430
+
+    * se limpia internet explorer
+
+commit 6cc1cc07f789ee30fa27fe9ab58660217563a796
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Apr 10 19:06:40 2016 -0430
+
+    * changelog
+
+commit 493a45fcdd8bb08995965a321d667ccd5e87ff98
 Author: jose perez <sinfallas@gmail.com>
 Date:   Sun Apr 10 19:05:45 2016 -0430
 
