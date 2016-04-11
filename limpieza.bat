@@ -24,4 +24,6 @@ RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 32
 RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 255
 RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 4351
 
+chkdsk c: /f /r /x
+
 exit
