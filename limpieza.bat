@@ -27,15 +27,14 @@ del c:\windows\*.tmp /s /f /q
 del c:\windows\*.bak /s /f /q
 del c:\windows\*.old /s /f /q
 
-
-del /P /S "C:\Users\%username%\AppData\Local\Google\Chrome\User Data\History*"
-del /P /S "C:\Users\%username%\AppData\Roaming\Mozilla\Firefox\Profiles\places.sqlite*"
+del /p /s "C:\Users\%username%\AppData\Local\Google\Chrome\User Data\History*"
+del /p /s "C:\Users\%username%\AppData\Roaming\Mozilla\Firefox\Profiles\places.sqlite*"
 
 net stop wuauserv
 cd c:\windows
 rd /s SoftwareDistribution
-net start wuauserv
 cd ..
+net start wuauserv
 
 RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 8
 RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 2
