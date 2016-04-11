@@ -1,4 +1,16 @@
-commit ab987f653c5a5f0aa4a5b06c11f8681eb15703e6 (HEAD, origin/master, origin/HEAD, master)
+commit ee1896181b99f96504f91b559ecb2c8f0d777585 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Apr 10 20:40:04 2016 -0430
+
+    * se agregan opciones para el liberador de espacio en disco
+
+commit ef056cab2cf0cd626ef95fe2ac2873c43c07d07e
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Apr 10 20:38:13 2016 -0430
+
+    * changelog
+
+commit ab987f653c5a5f0aa4a5b06c11f8681eb15703e6
 Author: jose perez <sinfallas@gmail.com>
 Date:   Sun Apr 10 20:38:02 2016 -0430
 
