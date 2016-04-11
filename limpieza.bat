@@ -11,14 +11,14 @@ ipconfig /flushdns
 ipconfig /renew *
 
 net stop spooler
-del %SystemRoot%\system32\spool\PRINTERS\*.* /Q
+del %SystemRoot%\system32\spool\PRINTERS\*.* /q
 net start spooler
 
 cd c:\usuarios\%username%\AppData\Local
-rmdir /S /Q Temp
+rmdir /s /q Temp
 cd ..
 
-cd C:\$Recycle.Bin\
+cd c:\$Recycle.Bin\
 del /q /f /s /a r h s *.*
 cd ..
 
@@ -30,6 +30,12 @@ del c:\windows\*.old /s /f /q
 
 del /P /S "C:\Users\%username%\AppData\Local\Google\Chrome\User Data\History*"
 del /P /S "C:\Users\%username%\AppData\Roaming\Mozilla\Firefox\Profiles\places.sqlite*"
+
+net stop wuauserv
+cd c:\windows
+rd /s SoftwareDistribution
+net start wuauserv
+cd ..
 
 RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 8
 RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 2
